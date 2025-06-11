@@ -12,15 +12,15 @@ echo "🔍 Detected ARCH: $ARCH"
 BINARY_URL=""
 
 if [[ "$OS" == "linux" && "$ARCH" == "x86_64" ]]; then
-  BINARY_URL="https://example.com/hello-linux-x64"
+  BINARY_URL="https://github.com/nzingx/depths-of-js/raw/refs/heads/main/build/downloads/hello-linux-x64"
 elif [[ "$OS" == "linux" && "$ARCH" == "aarch64" ]]; then
-  BINARY_URL="https://example.com/hello-linux-arm64"
+  BINARY_URL="https://github.com/nzingx/depths-of-js/raw/refs/heads/main/build/downloads/hello-linux-arm64"
 elif [[ "$OS" == "linux" && "$ARCH" == "armv7l" ]]; then
-  BINARY_URL="https://example.com/hello-linux-armv7"
+  BINARY_URL="https://github.com/nzingx/depths-of-js/raw/refs/heads/main/build/downloads/hello-linux-armv7"
 elif [[ "$OS" == "darwin" && "$ARCH" == "x86_64" ]]; then
-  BINARY_URL="https://example.com/hello-macos-x64"
+  BINARY_URL="https://github.com/nzingx/depths-of-js/raw/refs/heads/main/build/downloads/hello-macos-x64"
 elif [[ "$OS" == "darwin" && "$ARCH" == "arm64" ]]; then
-  BINARY_URL="https://example.com/hello-macos-arm64"
+  BINARY_URL="https://github.com/nzingx/depths-of-js/raw/refs/heads/main/build/downloads/hello-macos-arm64"
 else
   echo "❌ Unsupported platform: $OS-$ARCH"
   exit 1
