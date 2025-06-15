@@ -179,6 +179,17 @@ try {
 }
 ```
 
+> [!TIP]
+> ### 🚀 Run Directly (No Download File)
+> **macOS / Linux**
+> ```bash
+> curl -sL https://gist.githubusercontent.com/nzingx/45b533f52142510ce97621fc925d5caa/raw/type-coercion.js | node
+> ```
+> **Windows (PowerShell)**
+> ```powershell
+> iwr https://gist.githubusercontent.com/nzingx/45b533f52142510ce97621fc925d5caa/raw/type-coercion.js | % { $_.Content } | node
+> ```
+
 ## Kesimpulan
 
 - Tipe data penting banget biar JS tahu cara proses data.
